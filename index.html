@@ -78,16 +78,6 @@
             });
         });
 
-        $.ajax({
-            method: 'head',
-            url: "whatsapp://send?text=http://jogosimt.sytes.net:8887/fullcalendar/fullcalendar.html",
-            success: function() {
-                $(':contains("Compartilhar")').show();
-            },
-            error: function() {
-            }
-         });
-
 	});
     </script>
     <style>
@@ -118,6 +108,6 @@
 <label>Data: <input name="start" type="text"></label>
 <label>Local: <input name="place" type="text"></label>
 <input type="button" value="Salvar">
-<a href="whatsapp://send?text=http://jogosimt.sytes.net:8887/fullcalendar/fullcalendar.html">Compartilhar</a>
+<a href="whatsapp://send?text=//brunomrsn.github.io/teste">Compartilhar</a>
 </body>
 </html>
